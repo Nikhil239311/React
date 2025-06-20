@@ -2,7 +2,7 @@ import React from 'react';
 
 
 import shapehand from './assets/shpaehand.png'
-
+import anish from './assets/Anish.png'
 export default function Content() {
     return (
         <>
@@ -50,7 +50,7 @@ export default function Content() {
                         <div className="anish">
 
                             <img
-                                src="src/assets/Anish.png"
+                                src={anish}
                                 alt="Pointing Hand"
                                 className="relative z-10 w-32 h-auto"
                             />
