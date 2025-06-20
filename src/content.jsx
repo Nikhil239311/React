@@ -3,6 +3,9 @@ import React from 'react';
 
 import shapehand from './assets/shpaehand.png'
 import anish from './assets/Anish.png'
+import yel1 from './assets/yellow1.png'
+import yel from './assets/yellow.png'
+import grey from './assets/greyshape.png'
 export default function Content() {
     return (
         <>
@@ -114,7 +117,7 @@ export default function Content() {
 
             </section>
             <div className="yellow1">
-                <img src="src/assets/yellow1.png" alt="Shape Overlay" class="imgyello1" />
+                <img src={yel1} class="imgyello1" />
             </div>
             <div className="para">
 
@@ -141,11 +144,11 @@ export default function Content() {
                 <h6 className='mail'>sinhaanishkumar@outlook.com  | </h6>
             </div> <h5>__________________________________________________________</h5>
             <div class="yellow">
-                <img src="src/assets/yellow.png" alt="Shape Overlay" class="imgyello" />
+                <img src={yel} class="imgyello" />
             </div>
 
             <div class="grey">
-                <img src="src/assets/greyshape.png" alt="Shape Overlay" class="imggrey" />
+                <img src={grey} class="imggrey" />
             </div>
 
         </>
